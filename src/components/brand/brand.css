@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.gpt3__brand div {
+.gpt3__brand img {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
