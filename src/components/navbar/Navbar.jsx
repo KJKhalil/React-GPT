@@ -18,6 +18,8 @@ const Navbar = () => {
   
   return (
     <div className='gpt3__navbar'>
+      
+      {/*Handles The HREF Links On The Navbar*/}
       <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
           <img src={logo} alt='logo'/>
@@ -26,10 +28,14 @@ const Navbar = () => {
           <Menu/>
         </div>
       </div>
+      
+      {/*Sign In(Acts As A Button)/Sign Up Button*/}
       <div className='gpt3__navbar-sign'>
         <p>Sign In</p>
         <button type='button'>Sign Up</button>
       </div>
+      
+      {/*Handles The Drop Down Menu For The HREF Links When The Viewing Device Is Too Small*/}
       <div className='gpt3__navbar-menu'>
         {toggleMenu
           ? <RiCloseLine color='#fff'size={27} onClick={() => setToggleMenu(false)}/>
