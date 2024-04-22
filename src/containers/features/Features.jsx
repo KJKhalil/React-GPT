@@ -31,6 +31,8 @@ const Features = () => {
         <h1 className='gradient__text'>The Future Is Now And You Just Need To Realize It. Step Into Future Today & Make It Happen.</h1>
         <p>Request Early Access To Get Started</p>
       </div>
+
+      {/* Uses The Feature Import For title And text. Puts The Content In The Container From const featuresData*/}
       <div className='gpt3__features-container'>
         {featuresData.map(( item, index ) => (
           <Feature title={ item.title } text={ item.text } key={ item.title + index }/>
