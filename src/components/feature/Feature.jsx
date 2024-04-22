@@ -1,7 +1,7 @@
 import React from 'react';
 import './feature.css';
 
-/*Handles The Export Of Content In WhatGPT3.jsx. The Content Itself Is In WhatGPT3.jsx*/
+/*Handles The Title And Text Export Of Content In WhatGPT3.jsx And Features.jsx. The Content Itself Is In The Respective .jsx's*/
 const Feature = ({ title, text }) => {
   return (
     <div className='gpt3__features-container__feature'>
