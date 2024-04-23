@@ -1,3 +1,4 @@
+/*This .jsx Is For The 'What Is GPT' Section*/
 import React from 'react';
 import { Feature } from '../../components';
 import './whatGPT3.css';

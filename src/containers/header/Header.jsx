@@ -1,3 +1,4 @@
+/*This .jsx For The Top Section Of The Page That 'Home' Takes You To*/
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png'

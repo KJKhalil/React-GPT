@@ -1,3 +1,4 @@
+/*This .jsx Is For The 'Case Studies' Section*/
 import React from 'react';
 import { Feature } from '../../components';
 import './features.css';
