@@ -1,3 +1,4 @@
+/*This Page Is For The 'Library' Section*/
 import React from 'react';
 import { Article } from '../../components';
 import { blog1, blog2, blog3, blog4, blog5 } from './imports.js';
@@ -12,18 +13,18 @@ const Blog = () => {
         <h1 className='gradient__text'>A Lot Is Happening, We Are Blogging About It.</h1>
       </div>
 
-      {/*First Blog To The Left*/}
+      {/*First Blog And Its Content To The Left*/}
       <div className='gpt__blog-container'>
         <div className='gpt3__blog-container__groupA'>
-          <Article/>
+          <Article imgUrl={blog1} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
         </div>
 
-        {/*Four Other Blogs To The Right*/}
+        {/*Four Other Blogs And Their Content To The Right*/}
         <div className='gpt3__blog-container__groupB'>
-          <Article/>
-          <Article/>
-          <Article/>
-          <Article/>
+          <Article imgUrl={blog2} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
+          <Article imgUrl={blog3} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
+          <Article imgUrl={blog4} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
+          <Article imgUrl={blog5} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
         </div>
       </div>
     </div>
