@@ -3,6 +3,7 @@ import React from 'react';
 import { Feature } from '../../components';
 import './features.css';
 
+/*This const Is The Content That Goes Into gpt3__features-container*/
 const featuresData = [
   {
     title:'Improving End Distrusts Instantly ',
@@ -29,6 +30,8 @@ const Features = () => {
   return (
     <div className='gpt3__features section__padding' id='features'>
       <div className='gpt3__features-heading'>
+        
+        {/*Content On The Left Of Section*/}
         <h1 className='gradient__text'>The Future Is Now And You Just Need To Realize It. Step Into Future Today & Make It Happen.</h1>
         <p>Request Early Access To Get Started</p>
       </div>
