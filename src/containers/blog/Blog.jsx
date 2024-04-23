@@ -1,5 +1,6 @@
 import React from 'react';
 import { Article } from '../../components';
+import { blog1, blog2, blog3, blog4, blog5 } from './imports.js';
 import './blog.css';
 
 const Blog = () => {
