@@ -14,7 +14,7 @@ const Blog = () => {
       </div>
 
       {/*First Blog And Its Content To The Left*/}
-      <div className='gpt__blog-container'>
+      <div className='gpt3__blog-container'>
         <div className='gpt3__blog-container__groupA'>
           <Article imgUrl={blog1} date='April 23, 2024' title='GPT-3 and Open AI is the future. Let us explore it.'/>
         </div>
