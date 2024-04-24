@@ -42,10 +42,10 @@ const Footer = () => {
           <p>CompanyCustomerServiceEmail</p>
           <p>5134 RandomStreet Rd, RandomState 11111</p>
         </div>
+      </div>
 
-        <div className='gpt3__footer-copyright'>
-          <p>© 2024 GPT-3. All Rights Reserved.</p>
-        </div>
+      <div className='gpt3__footer-copyright'>
+        <p>© 2024 GPT-3. All Rights Reserved.</p>
       </div>
     </div>
   )
